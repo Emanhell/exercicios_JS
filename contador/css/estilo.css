@@ -1,0 +1,28 @@
+Body{
+    background: rgb(54, 201, 201);
+    font: 15pt Arial;
+}
+
+section{
+    background-color: antiquewhite;
+    text-align: left;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(o, 0, 0, 0.363);
+    
+    
+    
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    text-align: center;
+    font: 12pt comic;
+    color: white;
+}
