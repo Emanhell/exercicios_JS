@@ -13,25 +13,27 @@
         </header>
         
     <section>
-       <div>
+       <div id="dados ">
            <p>
-           Início: <input type="number" id="ini">
+           Início: <input type="number" name="inicio" id="txti">
            </p>
            <p>
-           Fim: <input type="number" id="fim">
+           Fim: <input type="number" name="fim" id="txtf">
            </p>
            <p>
-           Passo: <input type="number" id="pass">
+           Passo: <input type="number" name="pass" id="txtp">
            </p>
            <p>
-           <input type="button" value="Contar"><br>
+           <input type="button" value="Contar" onclick="contar()">
            </p>
        </div>
-       <div>Preparando a contagem...</div>
+       <div id="res">Preparando a contagem...</div>
     </section>
        <footer>
           <p>&copy;EmanuelSouza</p>
+          <script src="script.js"></script>
        </footer>
+
     
    </body>
 </html>
